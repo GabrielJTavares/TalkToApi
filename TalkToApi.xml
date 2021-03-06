@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TalkToApi</name>
+    </assembly>
+    <members>
+        <member name="M:TalkToApi.V1.Controllers.UsuarioController.Login(TalkToApi.V1.Models.DTO.UsuarioDTO)">
+            <summary>
+            Faz o Login
+            </summary>
+            <param name="usuarioDTO">Email</param>
+            <returns>retorna um token</returns>
+        </member>
+        <member name="M:TalkToApi.V1.Controllers.UsuarioController.Renovar(TalkToApi.V1.Models.DTO.TokenDTO)">
+            <summary>
+            faz a renovação do token para não ser necessario um novo login
+            </summary>
+            <param name="tokenDTO">token</param>
+            <returns>um novo token</returns>
+        </member>
+        <member name="M:TalkToApi.V1.Controllers.UsuarioController.Cadastrar(TalkToApi.V1.Models.DTO.UsuarioDTO,System.String)">
+            <summary>
+            Cadastra um novo usuario
+            </summary>
+            <param name="usuarioDTO">email</param>
+            <returns>o novo usuario</returns>
+        </member>
+    </members>
+</doc>
